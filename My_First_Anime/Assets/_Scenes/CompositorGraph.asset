@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1113687953110075234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
+  m_Name: '025b78fd-d364-48d1-9f56-f433762cf173: RenderingNode.output -> LayerNode.input'
+  m_EditorClassIdentifier: 
+  input: {fileID: -453702150667803059}
+  output: {fileID: 6415436808865570499}
+  inputFieldName: input
+  outputFieldName: output
+  guid: 025b78fd-d364-48d1-9f56-f433762cf173
+  useProperty: 0
+--- !u!114 &-453702150667803059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d5921db1d18c54bbd6c8a94376a933, type: 3}
+  m_Name: LayerNode
+  m_EditorClassIdentifier: 
+  guid: deb48327-e19f-4141-9c81-e400e2e70728
+  groupGuid: 
+  position: {x: 0, y: 0}
+  renderEnabled: 1
+  title: LayerNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  _nodeUIState:
+    m_isExpanded: 1
+  portedFieldsContainer: []
+  exposeAsComponent: 0
+  settings:
+    opacity: 1
+  proxy: {fileID: 0}
+  enabled: 1
+  blendMode: 17
+  useInputAlpha: 1
+  maskChannel: 3
+  premultipliedAlpha: 0
+  input: {fileID: 0}
+  mask: {fileID: 0}
+  m_exportMode: 0
+  m_rtExporter:
+    m_exportRenderTexture:
+      overrideState: 1
+      value: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a5ba7e25024bdc8c2b08d4ce788a16, type: 3}
+  m_Name: CompositorGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 6415436808865570499}
+  edges:
+  - {fileID: -1113687953110075234}
+  layers:
+  - {fileID: -453702150667803059}
+  groups: []
+  layerStackPosition: {x: 576, y: 0}
+  m_isInitialized: 1
+  rootGraph: {fileID: 0}
+  snapshotPaths: []
+  _compositorGraphVersion: 1
+--- !u!114 &6415436808865570499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a04a9172dea34da5cc24c941eb990, type: 3}
+  m_Name: RenderingNode
+  m_EditorClassIdentifier: 
+  guid: 3e867bd3-fdaf-4af5-8054-decd07c341e6
+  groupGuid: 
+  position: {x: 0, y: 0}
+  renderEnabled: 1
+  title: RenderingNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  _nodeUIState:
+    m_isExpanded: 1
+  portedFieldsContainer: []
+  size: {x: 1920, y: 1080}
+  camera:
+    exposedName: 3ce9cde15b5680d44ac2cca9977eb3d5
+    defaultValue: {fileID: 0}
+  _renderMaterial:
+    overrideState: 0
+    value: {fileID: 0}
+  _lightShadows:
+    overrideState: 0
+    value: 0
+  includeChildRenderers: 1
+  output: {fileID: 0}
+  _cullingMask:
+    overrideState: 0
+    value:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  clearFlags:
+    overrideState: 0
+    value: 2
+  backgroundColor:
+    overrideState: 0
+    value: {r: 0, g: 0, b: 0, a: 1}
+  globalVolume:
+    overrideState: 0
+    value: {fileID: 0}
+  antialiasing: 0
+  SMAAQuality: 0
+  taaSharpenStrength: 0
