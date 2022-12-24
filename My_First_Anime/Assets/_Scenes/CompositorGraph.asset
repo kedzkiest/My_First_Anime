@@ -124,7 +124,7 @@ MonoBehaviour:
   layers:
   - {fileID: 8190587528156192907}
   groups: []
-  layerStackPosition: {x: 652, y: -82}
+  layerStackPosition: {x: 1092, y: -5}
   m_isInitialized: 1
   rootGraph: {fileID: 11400000}
   snapshotPaths: []
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guid: 00714dbf-9e42-4a4e-b93c-7881ee19cfd9
   groupGuid: 
-  position: {x: -60.139626, y: 242.87141}
+  position: {x: -482, y: 179}
   renderEnabled: 1
   title: RenderingNode
   isPinned: 0
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guid: 8beb847e-09fe-4890-ba5b-0726066a3a12
   groupGuid: 
-  position: {x: 76.705025, y: 511.8075}
+  position: {x: -38, y: 179}
   renderEnabled: 1
   title: TransformNode
   isPinned: 0
@@ -241,10 +241,10 @@ MonoBehaviour:
   exposeAsComponent: 0
   settings:
     backgroundColor: {r: 0, g: 0, b: 0, a: 0}
-    scale: {x: 1, y: 1}
+    scale: {x: 0.3, y: 0.3}
     rotation: 0
     rotationCenter: {x: 0, y: 0}
-    offset: {x: 0, y: 0}
+    offset: {x: 440, y: 100}
   proxy: {fileID: 0}
   input: {fileID: 0}
   output: {fileID: 0}
@@ -266,7 +266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guid: 30f316c3-4be7-49c7-b873-35badbe20236
   groupGuid: 
-  position: {x: 194.18144, y: 196.84146}
+  position: {x: 543, y: 26}
   renderEnabled: 1
   title: BlendNode
   isPinned: 0
