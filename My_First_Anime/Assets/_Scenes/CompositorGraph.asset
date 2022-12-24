@@ -1,151 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8684955300491209206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: 'f0fdf321-a835-4d8a-9b3d-aabc023ff4ea: TransformNode.output -> LayerNode.input'
-  m_EditorClassIdentifier: 
-  input: {fileID: 8190587528156192907}
-  output: {fileID: 2356996017666332732}
-  inputFieldName: input
-  outputFieldName: output
-  guid: f0fdf321-a835-4d8a-9b3d-aabc023ff4ea
-  useProperty: 0
---- !u!114 &-8615979416255781198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '46dca793-b6eb-4431-bb1d-e5e80e1a857d: Texture2DNode.output -> BlendNode.background'
-  m_EditorClassIdentifier: 
-  input: {fileID: 2777124723444671822}
-  output: {fileID: 8390265882972099918}
-  inputFieldName: background
-  outputFieldName: output
-  guid: 46dca793-b6eb-4431-bb1d-e5e80e1a857d
-  useProperty: 0
---- !u!114 &-7276012518587270656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '39f93449-06f1-4a06-a93a-d752bac0e4c5: Texture2DNode.output -> TransformNode.input'
-  m_EditorClassIdentifier: 
-  input: {fileID: -3960263108163063538}
-  output: {fileID: 7128152176592894095}
-  inputFieldName: input
-  outputFieldName: output
-  guid: 39f93449-06f1-4a06-a93a-d752bac0e4c5
-  useProperty: 0
---- !u!114 &-5403359584858702649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '5c9b0fb3-c7d1-4abe-8967-a94874a7526b: BlendNode.output -> LayerNode.input'
-  m_EditorClassIdentifier: 
-  input: {fileID: -453702150667803059}
-  output: {fileID: 2777124723444671822}
-  inputFieldName: input
-  outputFieldName: output
-  guid: 5c9b0fb3-c7d1-4abe-8967-a94874a7526b
-  useProperty: 0
---- !u!114 &-3960263108163063538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b25fb4efe3a4ce3b33e4b9d271e9b85, type: 3}
-  m_Name: TransformNode
-  m_EditorClassIdentifier: 
-  guid: cfb93716-2c15-4b99-8883-45f102e55fee
-  groupGuid: 
-  position: {x: -450, y: -287}
-  renderEnabled: 1
-  title: TransformNode
-  isPinned: 0
-  pinnedPosition: {x: 0, y: 0}
-  _nodeUIState:
-    m_isExpanded: 1
-  portedFieldsContainer: []
-  exposeAsComponent: 0
-  settings:
-    backgroundColor: {r: 0, g: 0, b: 0, a: 0}
-    scale: {x: 2, y: 2}
-    rotation: 0
-    rotationCenter: {x: 0, y: 0}
-    offset: {x: 350, y: -640}
-  proxy: {fileID: 0}
-  input: {fileID: 0}
-  output: {fileID: 0}
-  size: {x: 1400, y: 1100}
-  resizeMode: 1
-  texWrapMode: 1000
-  uniformScale: 1
---- !u!114 &-453702150667803059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81d5921db1d18c54bbd6c8a94376a933, type: 3}
-  m_Name: LayerNode
-  m_EditorClassIdentifier: 
-  guid: deb48327-e19f-4141-9c81-e400e2e70728
-  groupGuid: 
-  position: {x: 586, y: 42}
-  renderEnabled: 1
-  title: LayerNode
-  isPinned: 0
-  pinnedPosition: {x: 0, y: 0}
-  _nodeUIState:
-    m_isExpanded: 1
-  portedFieldsContainer: []
-  exposeAsComponent: 0
-  settings:
-    opacity: 1
-  proxy: {fileID: 0}
-  enabled: 1
-  blendMode: 17
-  useInputAlpha: 1
-  maskChannel: 3
-  premultipliedAlpha: 0
-  input: {fileID: 0}
-  mask: {fileID: 0}
-  m_exportMode: 0
-  m_rtExporter:
-    m_exportRenderTexture:
-      overrideState: 1
-      value: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,28 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: 6415436808865570499}
-  - {fileID: 8390265882972099918}
-  - {fileID: 7128152176592894095}
-  - {fileID: 2777124723444671822}
-  - {fileID: -3960263108163063538}
-  - {fileID: 2356996017666332732}
   edges:
-  - {fileID: -8615979416255781198}
-  - {fileID: -5403359584858702649}
-  - {fileID: -7276012518587270656}
-  - {fileID: 1392902863832395588}
-  - {fileID: 6750212465514525658}
-  - {fileID: -8684955300491209206}
+  - {fileID: 5073005504598629545}
   layers:
-  - {fileID: -453702150667803059}
   - {fileID: 8190587528156192907}
   groups: []
-  layerStackPosition: {x: 760, y: -172}
+  layerStackPosition: {x: 652, y: -82}
   m_isInitialized: 1
   rootGraph: {fileID: 11400000}
   snapshotPaths: []
   _compositorGraphVersion: 1
---- !u!114 &1392902863832395588
+--- !u!114 &5073005504598629545
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -191,84 +34,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: '5f823ed9-e770-4b04-9e2a-fc13491ba048: TransformNode.output -> BlendNode.input'
+  m_Name: '5067f0d5-e18d-4bc9-9eb9-60e375b1427c: RenderingNode.output -> LayerNode.input'
   m_EditorClassIdentifier: 
-  input: {fileID: 2777124723444671822}
-  output: {fileID: -3960263108163063538}
+  input: {fileID: 8190587528156192907}
+  output: {fileID: 6415436808865570499}
   inputFieldName: input
   outputFieldName: output
-  guid: 5f823ed9-e770-4b04-9e2a-fc13491ba048
+  guid: 5067f0d5-e18d-4bc9-9eb9-60e375b1427c
   useProperty: 0
---- !u!114 &2356996017666332732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b25fb4efe3a4ce3b33e4b9d271e9b85, type: 3}
-  m_Name: TransformNode
-  m_EditorClassIdentifier: 
-  guid: 3606ae15-6dd4-4154-a2e6-b62685d209eb
-  groupGuid: 
-  position: {x: 192, y: 252}
-  renderEnabled: 1
-  title: TransformNode
-  isPinned: 0
-  pinnedPosition: {x: 0, y: 0}
-  _nodeUIState:
-    m_isExpanded: 1
-  portedFieldsContainer: []
-  exposeAsComponent: 0
-  settings:
-    backgroundColor: {r: 0, g: 0, b: 0, a: 0}
-    scale: {x: 1, y: 1}
-    rotation: 0
-    rotationCenter: {x: 0, y: 0}
-    offset: {x: -200, y: 0}
-  proxy: {fileID: 0}
-  input: {fileID: 0}
-  output: {fileID: 0}
-  size: {x: 1920, y: 1080}
-  resizeMode: 1
-  texWrapMode: 1000
-  uniformScale: 1
---- !u!114 &2777124723444671822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3732614397404b9ab85724fb4a94e054, type: 3}
-  m_Name: BlendNode
-  m_EditorClassIdentifier: 
-  guid: 71aba622-ad85-4c7f-b946-93713ace6962
-  groupGuid: 
-  position: {x: 0, y: -525}
-  renderEnabled: 1
-  title: BlendNode
-  isPinned: 0
-  pinnedPosition: {x: 0, y: 0}
-  _nodeUIState:
-    m_isExpanded: 1
-  portedFieldsContainer: []
-  exposeAsComponent: 0
-  settings:
-    opacity: 1
-  proxy: {fileID: 0}
-  background: {fileID: 0}
-  input: {fileID: 0}
-  output: {fileID: 0}
-  blendMode: 17
-  useInputAlpha: 1
-  premultipliedAlpha: 0
-  maskChannel: 3
-  mask: {fileID: 0}
 --- !u!114 &6415436808865570499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,7 +56,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guid: 3e867bd3-fdaf-4af5-8054-decd07c341e6
   groupGuid: 
-  position: {x: -271, y: 252}
+  position: {x: 59, y: 72}
   renderEnabled: 1
   title: RenderingNode
   isPinned: 0
@@ -309,10 +82,10 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 4294967295
   clearFlags:
-    overrideState: 1
+    overrideState: 0
     value: 2
   backgroundColor:
-    overrideState: 1
+    overrideState: 0
     value: {r: 0, g: 0, b: 0, a: 0}
   globalVolume:
     overrideState: 0
@@ -320,49 +93,6 @@ MonoBehaviour:
   antialiasing: 0
   SMAAQuality: 0
   taaSharpenStrength: 0
---- !u!114 &6750212465514525658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
-  m_Name: 'c54c1f29-9431-449b-bf2a-fcdb947888d2: RenderingNode.output -> TransformNode.input'
-  m_EditorClassIdentifier: 
-  input: {fileID: 2356996017666332732}
-  output: {fileID: 6415436808865570499}
-  inputFieldName: input
-  outputFieldName: output
-  guid: c54c1f29-9431-449b-bf2a-fcdb947888d2
-  useProperty: 0
---- !u!114 &7128152176592894095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed9779f53e630a84faf68e7bcfd34009, type: 3}
-  m_Name: Texture2DNode
-  m_EditorClassIdentifier: 
-  guid: f814a552-1eae-4f3e-889b-5748b8a573b4
-  groupGuid: 
-  position: {x: -883, y: -287}
-  renderEnabled: 1
-  title: Texture2DNode
-  isPinned: 0
-  pinnedPosition: {x: 0, y: 0}
-  _nodeUIState:
-    m_isExpanded: 1
-  portedFieldsContainer: []
-  m_texture: {fileID: 2800000, guid: bfc1ec6365173b84482e28de30cb04b4, type: 3}
-  m_outputSize: {x: 400, y: 1100}
-  output: {fileID: 0}
 --- !u!114 &8190587528156192907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,7 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guid: 2accea40-ec03-4a67-8420-f8bca639fa9e
   groupGuid: 
-  position: {x: 0, y: 0}
+  position: {x: 643, y: -57}
   renderEnabled: 1
   title: LayerNode
   isPinned: 0
@@ -401,28 +131,3 @@ MonoBehaviour:
     m_exportRenderTexture:
       overrideState: 1
       value: {fileID: 0}
---- !u!114 &8390265882972099918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed9779f53e630a84faf68e7bcfd34009, type: 3}
-  m_Name: Texture2DNode
-  m_EditorClassIdentifier: 
-  guid: 0e827438-6b24-4e0f-a1f8-2a2a288eaf51
-  groupGuid: 
-  position: {x: -883, y: -711}
-  renderEnabled: 1
-  title: Texture2DNode
-  isPinned: 0
-  pinnedPosition: {x: 0, y: 0}
-  _nodeUIState:
-    m_isExpanded: 1
-  portedFieldsContainer: []
-  m_texture: {fileID: 2800000, guid: c17ebe487883e3b4190a58bbfe2f98b2, type: 3}
-  m_outputSize: {x: 2048, y: 1024}
-  output: {fileID: 0}
