@@ -1,0 +1,344 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6717876192384127485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed9779f53e630a84faf68e7bcfd34009, type: 3}
+  m_Name: Texture2DNode
+  m_EditorClassIdentifier: 
+  guid: 4b72c96e-fce6-4f3f-948c-66eb34876154
+  groupGuid: 
+  position: {x: -482, y: -484}
+  renderEnabled: 1
+  title: Texture2DNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  _nodeUIState:
+    m_isExpanded: 1
+  portedFieldsContainer: []
+  m_texture: {fileID: 2800000, guid: c17ebe487883e3b4190a58bbfe2f98b2, type: 3}
+  m_outputSize: {x: 1920, y: 1080}
+  output: {fileID: 0}
+--- !u!114 &-2638222914643537593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
+  m_Name: '1642f72a-212e-478f-bcef-85c13a41752b: TransformNode.output -> BlendNode.background'
+  m_EditorClassIdentifier: 
+  input: {fileID: 6644395687580588226}
+  output: {fileID: -1737919803072973010}
+  inputFieldName: background
+  outputFieldName: output
+  guid: 1642f72a-212e-478f-bcef-85c13a41752b
+  useProperty: 0
+--- !u!114 &-1737919803072973010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b25fb4efe3a4ce3b33e4b9d271e9b85, type: 3}
+  m_Name: TransformNode
+  m_EditorClassIdentifier: 
+  guid: c2a5c2eb-c713-44cd-b774-15bd104fa3d2
+  groupGuid: 
+  position: {x: -38, y: -484}
+  renderEnabled: 1
+  title: TransformNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  _nodeUIState:
+    m_isExpanded: 1
+  portedFieldsContainer: []
+  exposeAsComponent: 0
+  settings:
+    backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+    scale: {x: 1, y: 1}
+    rotation: 0
+    rotationCenter: {x: 0, y: 0}
+    offset: {x: 0, y: 0}
+  proxy: {fileID: 0}
+  input: {fileID: 0}
+  output: {fileID: 0}
+  size: {x: 1920, y: 1080}
+  resizeMode: 1
+  texWrapMode: 1000
+  uniformScale: 1
+--- !u!114 &-1361686024669091797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
+  m_Name: '8ceebb66-d5f1-4e37-b389-9f5e5c2b80f3: Texture2DNode.output -> TransformNode.input'
+  m_EditorClassIdentifier: 
+  input: {fileID: -1737919803072973010}
+  output: {fileID: -6717876192384127485}
+  inputFieldName: input
+  outputFieldName: output
+  guid: 8ceebb66-d5f1-4e37-b389-9f5e5c2b80f3
+  useProperty: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a5ba7e25024bdc8c2b08d4ce788a16, type: 3}
+  m_Name: Comp2
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6717876192384127485}
+  - {fileID: -1737919803072973010}
+  - {fileID: 984519286089185662}
+  - {fileID: 5088224421857290021}
+  - {fileID: 6644395687580588226}
+  edges:
+  - {fileID: -1361686024669091797}
+  - {fileID: 3751277723842244531}
+  - {fileID: -2638222914643537593}
+  - {fileID: 1035887147752472070}
+  - {fileID: 7082004247586440922}
+  layers:
+  - {fileID: 8190587528156192907}
+  groups: []
+  layerStackPosition: {x: 1092, y: -5}
+  m_isInitialized: 1
+  rootGraph: {fileID: 11400000}
+  snapshotPaths: []
+  _compositorGraphVersion: 1
+--- !u!114 &984519286089185662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a04a9172dea34da5cc24c941eb990, type: 3}
+  m_Name: RenderingNode
+  m_EditorClassIdentifier: 
+  guid: 00714dbf-9e42-4a4e-b93c-7881ee19cfd9
+  groupGuid: 
+  position: {x: -482, y: 179}
+  renderEnabled: 1
+  title: RenderingNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  _nodeUIState:
+    m_isExpanded: 1
+  portedFieldsContainer: []
+  size: {x: 1920, y: 1080}
+  camera:
+    exposedName: 7e4ab997b8742ac4a93de199b0745f92
+    defaultValue: {fileID: 0}
+  _renderMaterial:
+    overrideState: 0
+    value: {fileID: 0}
+  _lightShadows:
+    overrideState: 0
+    value: 0
+  includeChildRenderers: 1
+  output: {fileID: 0}
+  _cullingMask:
+    overrideState: 0
+    value:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  clearFlags:
+    overrideState: 1
+    value: 2
+  backgroundColor:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 0}
+  globalVolume:
+    overrideState: 0
+    value: {fileID: 0}
+  antialiasing: 0
+  SMAAQuality: 0
+  taaSharpenStrength: 0
+--- !u!114 &1035887147752472070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
+  m_Name: 'd7a9808d-ff67-4cd7-8380-57ea5d79b8e1: TransformNode.output -> BlendNode.input'
+  m_EditorClassIdentifier: 
+  input: {fileID: 6644395687580588226}
+  output: {fileID: 5088224421857290021}
+  inputFieldName: input
+  outputFieldName: output
+  guid: d7a9808d-ff67-4cd7-8380-57ea5d79b8e1
+  useProperty: 0
+--- !u!114 &3751277723842244531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
+  m_Name: '9d209823-a385-4caa-b82e-daf6f5654482: RenderingNode.output -> TransformNode.input'
+  m_EditorClassIdentifier: 
+  input: {fileID: 5088224421857290021}
+  output: {fileID: 984519286089185662}
+  inputFieldName: input
+  outputFieldName: output
+  guid: 9d209823-a385-4caa-b82e-daf6f5654482
+  useProperty: 0
+--- !u!114 &5088224421857290021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b25fb4efe3a4ce3b33e4b9d271e9b85, type: 3}
+  m_Name: TransformNode
+  m_EditorClassIdentifier: 
+  guid: 8beb847e-09fe-4890-ba5b-0726066a3a12
+  groupGuid: 
+  position: {x: -38, y: 179}
+  renderEnabled: 1
+  title: TransformNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  _nodeUIState:
+    m_isExpanded: 1
+  portedFieldsContainer: []
+  exposeAsComponent: 1
+  settings:
+    backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+    scale: {x: 1.5, y: 1.5}
+    rotation: 0
+    rotationCenter: {x: 0, y: 0}
+    offset: {x: 1000, y: -70}
+  proxy: {fileID: 0}
+  input: {fileID: 0}
+  output: {fileID: 0}
+  size: {x: 1920, y: 1080}
+  resizeMode: 1
+  texWrapMode: 1000
+  uniformScale: 1
+--- !u!114 &6644395687580588226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3732614397404b9ab85724fb4a94e054, type: 3}
+  m_Name: BlendNode
+  m_EditorClassIdentifier: 
+  guid: 30f316c3-4be7-49c7-b873-35badbe20236
+  groupGuid: 
+  position: {x: 543, y: 26}
+  renderEnabled: 1
+  title: BlendNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  _nodeUIState:
+    m_isExpanded: 1
+  portedFieldsContainer: []
+  exposeAsComponent: 0
+  settings:
+    opacity: 1
+  proxy: {fileID: 0}
+  background: {fileID: 0}
+  input: {fileID: 0}
+  output: {fileID: 0}
+  blendMode: 17
+  useInputAlpha: 1
+  premultipliedAlpha: 0
+  maskChannel: 3
+  mask: {fileID: 0}
+--- !u!114 &7082004247586440922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd54056a23d0e6e42ac3033150305e31, type: 3}
+  m_Name: 'e9fee880-cfd0-4a6e-9a65-93009134b4ec: BlendNode.output -> LayerNode.input'
+  m_EditorClassIdentifier: 
+  input: {fileID: 8190587528156192907}
+  output: {fileID: 6644395687580588226}
+  inputFieldName: input
+  outputFieldName: output
+  guid: e9fee880-cfd0-4a6e-9a65-93009134b4ec
+  useProperty: 0
+--- !u!114 &8190587528156192907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d5921db1d18c54bbd6c8a94376a933, type: 3}
+  m_Name: LayerNode
+  m_EditorClassIdentifier: 
+  guid: 2accea40-ec03-4a67-8420-f8bca639fa9e
+  groupGuid: 
+  position: {x: 643, y: -57}
+  renderEnabled: 1
+  title: LayerNode
+  isPinned: 0
+  pinnedPosition: {x: 0, y: 0}
+  _nodeUIState:
+    m_isExpanded: 1
+  portedFieldsContainer: []
+  exposeAsComponent: 0
+  settings:
+    opacity: 1
+  proxy: {fileID: 0}
+  enabled: 1
+  blendMode: 17
+  useInputAlpha: 1
+  maskChannel: 3
+  premultipliedAlpha: 0
+  input: {fileID: 0}
+  mask: {fileID: 0}
+  m_exportMode: 0
+  m_rtExporter:
+    m_exportRenderTexture:
+      overrideState: 1
+      value: {fileID: 0}
