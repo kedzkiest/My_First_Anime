@@ -155,7 +155,19 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: -95216728002941270, guid: 016e85f0fdfece04e82339dc830f9583, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 2338122993517399338, guid: 016e85f0fdfece04e82339dc830f9583, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -6497304166060751549, guid: 016e85f0fdfece04e82339dc830f9583, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 8932478721921078169, guid: 016e85f0fdfece04e82339dc830f9583, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -6804151197317688719, guid: 016e85f0fdfece04e82339dc830f9583, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 4514443906961998024, guid: 016e85f0fdfece04e82339dc830f9583, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &534446500
@@ -875,7 +887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f00c5a7c2c2881c46b19be0857080366, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  compositorGraphAsset: {fileID: 11400000, guid: 897196847c9003942b5649328769fd55,
+  compositorGraphAsset: {fileID: 11400000, guid: b60f0873346e1f94ea006592d877330d,
     type: 2}
   m_defaultCamera: {fileID: 963194227}
   _resolution: {x: 1920, y: 1080}
@@ -1049,7 +1061,9 @@ MonoBehaviour:
     m_keys:
     - 3ce9cde15b5680d44ac2cca9977eb3d5
     - dfcbe9ac8824c7d45810cbe894c02e2b
+    - ba893815e83139a4794ef82cfa5400ac
     m_values:
+    - {fileID: 963194227}
     - {fileID: 963194227}
     - {fileID: 963194227}
 --- !u!4 &1407256821
